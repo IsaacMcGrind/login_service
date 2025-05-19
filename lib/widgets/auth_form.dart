@@ -62,13 +62,13 @@ class AuthForm extends StatelessWidget {
             const Text('Or sign in with'),
             const SizedBox(height: 10),
             SocialSignInButton(
-              icon: FontAwesomeIcons.google,
+              icon: Icons.g_mobiledata,
               label: 'Google',
               onTap: () {},
             ),
             const SizedBox(height: 10),
             SocialSignInButton(
-              icon: FontAwesomeIcons.microsoft, // If this line causes an error, use FontAwesomeIcons.windows instead
+              icon: Icons.window, // If this line causes an error, use FontAwesomeIcons.windows instead
               label: 'Microsoft',
               onTap: () {},
             ),
